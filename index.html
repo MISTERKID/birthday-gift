@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Your Boyfriend?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container animated fade-in">
+        <img src="bubu-dudu-sseeyall.gif" alt="Bubu Dudu Love GIF" style="width: 300px; height: auto; display: block; margin: 0 auto;">
+        <h1 class="slide-in-top">Do you love your boyfriend?</h1>
+        <div class="buttons fade-in" style="display: flex; justify-content: center; gap: 10px;">
+            <button id="yes-btn" class="scale-up">Yes</button>
+            <button id="no-btn" class="scale-up">No</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('no-btn').addEventListener('click', function() {
+            window.location.href = 'pick_again.html';
+        });
+
+        document.getElementById('yes-btn').addEventListener('click', function() {
+            window.location.href = 'i_knew_it.html';
+        });
+    </script>
+</body>
+</html>

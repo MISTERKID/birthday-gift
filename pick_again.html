@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Again</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container animated fade-in">
+        <h1 class="slide-in-top">No, you only have one choice.</h1>
+        <img src="bubu-onetwo.gif" alt="Bubu Dudu Love GIF" style="width: 300px; height: auto; display: block; margin: 0 auto;">
+        <p class="fade-in">There is only "Yes" as the answer!</p>
+        <div class="buttons fade-in">
+            <button id="yes-btn" class="scale-up">Yes</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('yes-btn').addEventListener('click', function() {
+            window.location.href = 'you_should_pick_this.html';
+        });
+    </script>
+</body>
+</html>
